@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "companies",
+  "collectionName": "contact_forms",
   "info": {
-    "name": "Companies"
+    "name": "ContactForm"
   },
   "options": {
     "increments": true,
@@ -10,13 +10,19 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "position": {
+    "email": {
       "type": "string"
     },
-    "period": {
+    "service": {
+      "type": "string"
+    },
+    "budget": {
+      "type": "string"
+    },
+    "message": {
       "type": "string"
     }
   }

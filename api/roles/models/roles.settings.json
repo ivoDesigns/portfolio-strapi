@@ -2,13 +2,12 @@
   "kind": "collectionType",
   "collectionName": "roles",
   "info": {
-    "name": "Roles",
-    "description": ""
+    "name": "Roles"
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "attributes": {
     "title": {
